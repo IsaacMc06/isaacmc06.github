@@ -1,0 +1,57 @@
+table {
+  border-collapse: collapse;
+  font-weight: bold;
+  width: 80%;
+  background-color: #C9F4DD;
+}
+
+th {
+  color: #008000; /* verde fuerte */
+}
+
+td, th {
+  border: 5px solid #154BE5; /* azul fuerte */
+  padding: 10px; /* ajusta el relleno según sea necesario */
+}
+
+body {
+  background-color: #B6F1F0; /* Color de fondo */
+}
+
+/* Estilo para títulos h1 */
+h1 {
+  color: #1280B0; /* Color rojo para resaltar */
+  font-size: 24px; /* Tamaño de fuente */
+  font-weight: bold; /* Texto en negrita */
+  text-transform: uppercase; /* Convertir texto a mayúsculas */
+}
+
+/* Estilo para párrafos */
+p {
+  color: #000000; /* Color del texto */
+  font-size: 20px; /* Tamaño de fuente */
+  line-height: 1.5; /* Altura de línea */
+  margin-bottom: 20px; /* Margen inferior */
+}
+A{
+  color: #12B036; /* Color rojo para resaltar */
+  font-size: 19px; /* Tamaño de fuente */
+  font-weight: bold; /* Texto en negrita */
+  text-transform: uppercase; /* Convertir texto a mayúsculas */
+}
+body{
+  text-align: justify;
+  margin: 50px;
+  border:2px solid: #B6F1F0;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+p {
+    margin-bottom: 20px;
+}

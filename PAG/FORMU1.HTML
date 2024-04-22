@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Encuesta Gelatinas El Abuelin</title>
+  <link rel="stylesheet" href="../CSS/FOR2.CSS">
+
+</head>
+<body>
+  <h1>Encuesta Gelatinas El Abuelin</h1>
+  <form action="#" method="post">
+    <p> <label> Nombre Completo:
+      <input  name="Nombre  "type="text" name="redirigir" size="25"></label>
+      </P>
+    <label for="sabor">1. ¿Qué sabor de gelatina es tu favorito?</label><br>
+    <input type="text" id="sabor" name="sabor" required><br><br>
+
+    <label for="servicio">2. ¿Qué te ha parecido el servicio en línea?</label><br>
+    <input type="radio" id="excelente" name="servicio" value="excelente"> Excelente<br>
+    <input type="radio" id="regular" name="servicio" value="regular"> Regular<br>
+    <input type="radio" id="malo" name="servicio" value="malo"> Malo<br><br>
+
+    <label for="problemas">3. ¿Has tenido problemas con la página web?</label><br>
+    <input type="radio" id="si" name="problemas" value="si"> Sí<br>
+    <input type="radio" id="no" name="problemas" value="no"> No<br><br>
+
+    <label for="opinion">4. ¿Qué te parece el servicio de dudas?</label><br>
+    <textarea id="opinion" name="opinion" rows="4" cols="50" placeholder="Déjanos tu opinión"></textarea><br><br>
+
+    <label for="inconvenientes">5. ¿Has tenido algún inconveniente con algún postre?</label><br>
+    <input type="checkbox" id="si_inconveniente" name="inconveniente" value="si"> Sí<br>
+    <input type="checkbox" id="no_inconveniente" name="inconveniente" value="no"> No<br><br>
+   <label for="calificacion-gelatinas">Cuál es su calificación de gelatinas del 1 al 10:</label><br>
+<select id="calificacion-gelatinas" name="calificacion-gelatinas">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+</select><br><br>
+<label for="calificacion-pagina">Califique la página con la siguiete barra:</label><br>
+<input type="range" id="calificacion-pagina" name="calificacion-pagina" min="1" max="10"><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
