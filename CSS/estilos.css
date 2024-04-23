@@ -1,10 +1,13 @@
 /* Estilos para el cuerpo del documento */
 body {
+  text-aling:justify;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
   background-color: #f2f2f2;
+}
+@media onli screen and (max-width:600px){
 }
 
 /* Estilos para los encabezados */
